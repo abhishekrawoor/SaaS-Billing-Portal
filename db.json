@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Abhi Admin",
+      "email": "abhi@admin.com",
+      "role": "admin",
+      "loginCount": 3,
+      "lastLogin": "2026-06-02T16:44:08.464Z"
+    },
+    {
+      "id": "customer-1",
+      "name": "Abhi Customer",
+      "email": "abhi@customer.com",
+      "role": "customer",
+      "loginCount": 3,
+      "lastLogin": "2026-06-02T16:42:48.495Z"
+    },
+    {
+      "id": "customer-1780418618612",
+      "name": "akshay",
+      "email": "akshay@customer.com",
+      "role": "customer",
+      "loginCount": 1,
+      "lastLogin": "2026-06-02T16:43:49.197Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan-basic",
+      "name": "Basic",
+      "price": 499,
+      "durationDays": 30
+    },
+    {
+      "id": "plan-pro",
+      "name": "Pro",
+      "price": 999,
+      "durationDays": 30
+    },
+    {
+      "id": "plan-enterprise",
+      "name": "Enterprise",
+      "price": 2999,
+      "durationDays": 30
+    },
+    {
+      "id": "plan-1780418553778",
+      "name": "basic",
+      "price": 200,
+      "durationDays": 30
+    }
+  ],
+  "payments": [
+    {
+      "id": "payment-1780418424332",
+      "userId": "customer-1",
+      "customerName": "Abhi Customer",
+      "customerEmail": "abhi@customer.com",
+      "planId": "plan-basic",
+      "planName": "Basic",
+      "amount": 499,
+      "status": "Successful",
+      "startDate": "2026-06-02T16:40:24.331Z",
+      "endDate": "2026-07-02T16:40:24.331Z",
+      "paidAt": "2026-06-02T16:40:24.333Z"
+    }
+  ]
+}

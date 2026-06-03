@@ -1,0 +1,17 @@
+{
+  "name": "saas-billing-portal-backend",
+  "version": "1.0.0",
+  "description": "Backend API for a role-based SaaS billing portal.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "saas",
+    "billing",
+    "portal",
+    "rbac"
+  ],
+  "author": "",
+  "license": "MIT"
+}
